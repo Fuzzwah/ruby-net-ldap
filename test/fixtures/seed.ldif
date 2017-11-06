@@ -10,7 +10,8 @@ ou: Groups
 
 # Directory Superuser
 dn: uid=admin,dc=rubyldap,dc=com
-sAMAccount: admin
+uid: admin
+upn: admin@rubyldap.com
 cn: system administrator
 sn: administrator
 objectClass: top
@@ -23,129 +24,130 @@ userPassword: passworD1
 # Users 1-10
 
 dn: uid=user1,ou=People,dc=rubyldap,dc=com
-sAMAccount: user1
-cn: User #1
-sn: Number 1
+uid: user1
+upn: userone@rubyldap.com
+cn: User 1
+cn: Number 1
 objectClass: top
 objectClass: person
 objectClass: organizationalPerson
 objectClass: inetOrgPerson
 userPassword: passworD1
 mail: user1@rubyldap.com
-upn: user1@rubyldap.com
 
 dn: uid=user2,ou=People,dc=rubyldap,dc=com
-sAMAccount: user2
-cn: User #2
-sn: Number 2
+uid: user2
+upn: user2@rubyldap.com
+cn: User 2
+cn: Number 2
 objectClass: top
 objectClass: person
 objectClass: organizationalPerson
 objectClass: inetOrgPerson
 userPassword: passworD1
 mail: user2@rubyldap.com
-upn: user2@rubyldap.com
 
 dn: uid=user3,ou=People,dc=rubyldap,dc=com
-sAMAccount: user3
-cn: User #3
-sn: Number 3
+uid: user3
+upn: user3@rubyldap.com
+cn: User 3
+cn: Number 3
 objectClass: top
 objectClass: person
 objectClass: organizationalPerson
 objectClass: inetOrgPerson
 userPassword: passworD1
 mail: user3@rubyldap.com
-upn: user3@rubyldap.com
 
 dn: uid=user4,ou=People,dc=rubyldap,dc=com
-sAMAccount: user4
-cn: User #4
-sn: Number 4
+uid: user4
+upn: user4@rubyldap.com
+cn: User 4
+cn: Number 4
 objectClass: top
 objectClass: person
 objectClass: organizationalPerson
 objectClass: inetOrgPerson
 userPassword: passworD1
 mail: user4@rubyldap.com
-upn: user4@rubyldap.com
 
 dn: uid=user5,ou=People,dc=rubyldap,dc=com
-sAMAccount: user5
-cn: User #5
-sn: Number 5
+uid: user5
+upn: user5@rubyldap.com
+cn: User 5
+cn: Number 5
 objectClass: top
 objectClass: person
 objectClass: organizationalPerson
 objectClass: inetOrgPerson
 userPassword: passworD1
 mail: user5@rubyldap.com
-upn: user5@rubyldap.com
 
 dn: uid=user6,ou=People,dc=rubyldap,dc=com
-sAMAccount: user6
-cn: User #6
-sn: Number 6
+uid: user6
+upn: user6@rubyldap.com
+cn: User 6
+cn: Number 6
 objectClass: top
 objectClass: person
 objectClass: organizationalPerson
 objectClass: inetOrgPerson
 userPassword: passworD1
 mail: user6@rubyldap.com
-upn: user6@rubyldap.com
 
 dn: uid=user7,ou=People,dc=rubyldap,dc=com
-sAMAccount: user7
-cn: User #7
-sn: Number 7
+uid: user7
+upn: user7@rubyldap.com
+cn: User 7
+cn: Number 7
 objectClass: top
 objectClass: person
 objectClass: organizationalPerson
 objectClass: inetOrgPerson
 userPassword: passworD1
 mail: user7@rubyldap.com
-upn: user7@rubyldap.com
 
 dn: uid=user8,ou=People,dc=rubyldap,dc=com
-sAMAccount: user8
-cn: User #8
-sn: Number 8
+uid: user8
+upn: user8@rubyldap.com
+cn: User 8
+cn: Number 8
 objectClass: top
 objectClass: person
 objectClass: organizationalPerson
 objectClass: inetOrgPerson
 userPassword: passworD1
 mail: user8@rubyldap.com
-upn: user8@rubyldap.com
 
 dn: uid=user9,ou=People,dc=rubyldap,dc=com
-sAMAccount: user9
-cn: User #9
-sn: Number 9
+uid: user9
+upn: user9@rubyldap.com
+cn: User 9
+cn: Number 9
 objectClass: top
 objectClass: person
 objectClass: organizationalPerson
 objectClass: inetOrgPerson
 userPassword: passworD1
 mail: user9@rubyldap.com
-upn: user9@rubyldap.com
 
 dn: uid=user10,ou=People,dc=rubyldap,dc=com
-sAMAccount: user10
-cn: User #10
-sn: Number 10
+uid: user10
+upn: user10@rubyldap.com
+cn: User 10
+cn: Number 10
 objectClass: top
 objectClass: person
 objectClass: organizationalPerson
 objectClass: inetOrgPerson
 userPassword: passworD1
 mail: user10@rubyldap.com
-upn: userten@rubyldap.com
 
 # Emailless User
 
 dn: uid=emailless-user1,ou=People,dc=rubyldap,dc=com
-sAMAccount: emailless-user1
+uid: emailless-user1
+upn: emailless-user1@rubyldap.com
 cn: emailless-user1
 sn: emailless-user1
 objectClass: top
@@ -153,34 +155,33 @@ objectClass: person
 objectClass: organizationalPerson
 objectClass: inetOrgPerson
 userPassword: passworD1
-upn: emailless-user1@rubyldap.com
 
 # Groupless User
 
 dn: uid=groupless-user1,ou=People,dc=rubyldap,dc=com
-sAMAccount: groupless-user1
-cn: groupless-user1
-sn: groupless-user1
+uid: groupless-user1
+upn: groupless-user1@rubyldap.com
+cn: Groupless User 1
+sn: Groupless Number 1
 objectClass: top
 objectClass: person
 objectClass: organizationalPerson
 objectClass: inetOrgPerson
 userPassword: passworD1
-upn: groupless-user1@rubyldap.com
 
 # Admin User
 
 dn: uid=admin1,ou=People,dc=rubyldap,dc=com
-sAMAccount: admin1
-cn: admin1
-sn: admin1
+uid: admin1
+upn: admin1@rubyldap.com
+cn: Admin 1
+sn: Admin Number 1
 objectClass: top
 objectClass: person
 objectClass: organizationalPerson
 objectClass: inetOrgPerson
 userPassword: passworD1
 mail: admin1@rubyldap.com
-upn: admin1@rubyldap.com
 
 # Groups
 

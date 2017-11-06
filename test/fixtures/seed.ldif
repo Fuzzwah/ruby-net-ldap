@@ -11,7 +11,6 @@ ou: Groups
 # Directory Superuser
 dn: uid=admin,dc=rubyldap,dc=com
 uid: admin
-upn: admin@rubyldap.com
 cn: system administrator
 sn: administrator
 objectClass: top
@@ -25,7 +24,6 @@ userPassword: passworD1
 
 dn: uid=user1,ou=People,dc=rubyldap,dc=com
 uid: user1
-upn: userone@rubyldap.com
 cn: User 1
 cn: Number 1
 objectClass: top
@@ -37,7 +35,6 @@ mail: user1@rubyldap.com
 
 dn: uid=user2,ou=People,dc=rubyldap,dc=com
 uid: user2
-upn: user2@rubyldap.com
 cn: User 2
 cn: Number 2
 objectClass: top
@@ -49,7 +46,6 @@ mail: user2@rubyldap.com
 
 dn: uid=user3,ou=People,dc=rubyldap,dc=com
 uid: user3
-upn: user3@rubyldap.com
 cn: User 3
 cn: Number 3
 objectClass: top
@@ -61,7 +57,6 @@ mail: user3@rubyldap.com
 
 dn: uid=user4,ou=People,dc=rubyldap,dc=com
 uid: user4
-upn: user4@rubyldap.com
 cn: User 4
 cn: Number 4
 objectClass: top
@@ -73,7 +68,6 @@ mail: user4@rubyldap.com
 
 dn: uid=user5,ou=People,dc=rubyldap,dc=com
 uid: user5
-upn: user5@rubyldap.com
 cn: User 5
 cn: Number 5
 objectClass: top
@@ -85,7 +79,6 @@ mail: user5@rubyldap.com
 
 dn: uid=user6,ou=People,dc=rubyldap,dc=com
 uid: user6
-upn: user6@rubyldap.com
 cn: User 6
 cn: Number 6
 objectClass: top
@@ -97,7 +90,6 @@ mail: user6@rubyldap.com
 
 dn: uid=user7,ou=People,dc=rubyldap,dc=com
 uid: user7
-upn: user7@rubyldap.com
 cn: User 7
 cn: Number 7
 objectClass: top
@@ -109,7 +101,6 @@ mail: user7@rubyldap.com
 
 dn: uid=user8,ou=People,dc=rubyldap,dc=com
 uid: user8
-upn: user8@rubyldap.com
 cn: User 8
 cn: Number 8
 objectClass: top
@@ -121,7 +112,6 @@ mail: user8@rubyldap.com
 
 dn: uid=user9,ou=People,dc=rubyldap,dc=com
 uid: user9
-upn: user9@rubyldap.com
 cn: User 9
 cn: Number 9
 objectClass: top
@@ -133,7 +123,6 @@ mail: user9@rubyldap.com
 
 dn: uid=user10,ou=People,dc=rubyldap,dc=com
 uid: user10
-upn: user10@rubyldap.com
 cn: User 10
 cn: Number 10
 objectClass: top
@@ -147,7 +136,6 @@ mail: user10@rubyldap.com
 
 dn: uid=emailless-user1,ou=People,dc=rubyldap,dc=com
 uid: emailless-user1
-upn: emailless-user1@rubyldap.com
 cn: emailless-user1
 sn: emailless-user1
 objectClass: top
@@ -160,7 +148,6 @@ userPassword: passworD1
 
 dn: uid=groupless-user1,ou=People,dc=rubyldap,dc=com
 uid: groupless-user1
-upn: groupless-user1@rubyldap.com
 cn: Groupless User 1
 sn: Groupless Number 1
 objectClass: top
@@ -173,7 +160,6 @@ userPassword: passworD1
 
 dn: uid=admin1,ou=People,dc=rubyldap,dc=com
 uid: admin1
-upn: admin1@rubyldap.com
 cn: Admin 1
 sn: Admin Number 1
 objectClass: top

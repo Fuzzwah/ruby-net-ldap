@@ -25,18 +25,18 @@ userPassword: passworD1
 dn: uid=user1,ou=People,dc=rubyldap,dc=com
 uid: user1
 cn: User 1
-cn: Number 1
+sn: user1
 objectClass: top
 objectClass: person
 objectClass: organizationalPerson
 objectClass: inetOrgPerson
 userPassword: passworD1
-mail: user1@rubyldap.com
+mail: userone@rubyldap.com
 
 dn: uid=user2,ou=People,dc=rubyldap,dc=com
 uid: user2
 cn: User 2
-cn: Number 2
+sn: user2
 objectClass: top
 objectClass: person
 objectClass: organizationalPerson
@@ -47,7 +47,7 @@ mail: user2@rubyldap.com
 dn: uid=user3,ou=People,dc=rubyldap,dc=com
 uid: user3
 cn: User 3
-cn: Number 3
+sn: user3
 objectClass: top
 objectClass: person
 objectClass: organizationalPerson
@@ -58,7 +58,7 @@ mail: user3@rubyldap.com
 dn: uid=user4,ou=People,dc=rubyldap,dc=com
 uid: user4
 cn: User 4
-cn: Number 4
+sn: user4
 objectClass: top
 objectClass: person
 objectClass: organizationalPerson
@@ -69,7 +69,7 @@ mail: user4@rubyldap.com
 dn: uid=user5,ou=People,dc=rubyldap,dc=com
 uid: user5
 cn: User 5
-cn: Number 5
+sn: user5
 objectClass: top
 objectClass: person
 objectClass: organizationalPerson
@@ -80,7 +80,7 @@ mail: user5@rubyldap.com
 dn: uid=user6,ou=People,dc=rubyldap,dc=com
 uid: user6
 cn: User 6
-cn: Number 6
+sn: user6
 objectClass: top
 objectClass: person
 objectClass: organizationalPerson
@@ -91,7 +91,7 @@ mail: user6@rubyldap.com
 dn: uid=user7,ou=People,dc=rubyldap,dc=com
 uid: user7
 cn: User 7
-cn: Number 7
+sn: user7
 objectClass: top
 objectClass: person
 objectClass: organizationalPerson
@@ -102,7 +102,7 @@ mail: user7@rubyldap.com
 dn: uid=user8,ou=People,dc=rubyldap,dc=com
 uid: user8
 cn: User 8
-cn: Number 8
+sn: user8
 objectClass: top
 objectClass: person
 objectClass: organizationalPerson
@@ -113,7 +113,7 @@ mail: user8@rubyldap.com
 dn: uid=user9,ou=People,dc=rubyldap,dc=com
 uid: user9
 cn: User 9
-cn: Number 9
+sn: user9
 objectClass: top
 objectClass: person
 objectClass: organizationalPerson
@@ -124,7 +124,7 @@ mail: user9@rubyldap.com
 dn: uid=user10,ou=People,dc=rubyldap,dc=com
 uid: user10
 cn: User 10
-cn: Number 10
+sn: user10
 objectClass: top
 objectClass: person
 objectClass: organizationalPerson
@@ -148,8 +148,8 @@ userPassword: passworD1
 
 dn: uid=groupless-user1,ou=People,dc=rubyldap,dc=com
 uid: groupless-user1
-cn: Groupless User 1
-sn: Groupless Number 1
+cn: groupless-user1
+sn: groupless-user1
 objectClass: top
 objectClass: person
 objectClass: organizationalPerson
@@ -161,7 +161,7 @@ userPassword: passworD1
 dn: uid=admin1,ou=People,dc=rubyldap,dc=com
 uid: admin1
 cn: Admin 1
-sn: Admin Number 1
+sn: admin1
 objectClass: top
 objectClass: person
 objectClass: organizationalPerson
